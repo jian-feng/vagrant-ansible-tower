@@ -1,0 +1,4 @@
+.vagrant/
+ansible-tower-setup-bundle*/
+license.txt
+*.gz

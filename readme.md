@@ -1,4 +1,5 @@
 Create vm and install ansible tower using vagrant
+(日本語のReadmeは[ここ](./readme-jp.md)にあります。)
 
 # Variables need to be changed
 

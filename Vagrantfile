@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 $hostname = "tower-3-2-3"
-$private_ip = "192.168.33.40"
+$private_ip = "192.168.33.41"
 $tower_bundle_download_url = "https://releases.ansible.com/ansible-tower/setup-bundle/ansible-tower-setup-bundle-3.2.3-1.el7.tar.gz"
 $tower_bundle_install_file = "ansible-tower-setup-bundle-3.2.3-1.el7.tar.gz"
 
@@ -80,7 +80,6 @@ Vagrant.configure("2") do |config|
   config.vm.provider :virtualbox do |vb, override|
     vb.customize [
       "modifyvm", :id,
-      "--name", "tower3.2.3",
       "--memory", "2048",
       "--cpus", 2
     ]
